@@ -10,6 +10,14 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
+.green {
+    background: #00CB79;
+}
+
+.gray {
+    background: #b3b3b3;
+}
+
 .home {
     position: relative;
 
@@ -122,6 +130,20 @@
             font-weight: 300;
             line-height: 29px;
         }
+        &__label {
+            height: 18px;
+            width: 18px;
+            background-color: black;
+            border-radius: 50%;
+            color: white;
+            font-family: 'Montserrat';
+            font-size: 14px;
+            text-align: center;
+            line-height: 22px;
+            // padding-top: 3px;
+            margin: 4px;
+            display: inline-block;
+        }
     }
 }
 
@@ -163,7 +185,6 @@
     &__number {
         grid-column: number-s/number-e;
 
-        background-color: #00CB79;
         color: white;
         font-size: 20px;
         line-height: 24px;
@@ -173,3 +194,4 @@
         border-radius: 50%;
     }
 }
+
