@@ -99,7 +99,7 @@
     button {
         justify-self: center;
         border: none;
-        transform: translateY(50%);
+        
         cursor: pointer;
     }
 
@@ -108,11 +108,13 @@
     }
 
     &__generate {
+        transform: translateY(-300px);
         background-color: #00CB79;
         @include button;
     }
 
     &__clear {
+        transform: translateY(50%);
         background-color: #45b0E5;
         @include button;
     }
