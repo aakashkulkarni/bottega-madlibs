@@ -14,4 +14,10 @@ class Home extends Component {
   }
 }
 
+// things that need a fix
+// placeholder
+// gray and green number labels
+// clear space (generate button)
+// numbers in madlib story
+
 export default Home;
